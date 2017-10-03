@@ -20,7 +20,7 @@ setup(
     packages=find_packages(),
     include_package_data=True,
     zip_safe=True,
-    install_requires=['requests', 'workzeug'],
+    install_requires=['requests', 'Werkzeug'],
     tests_require=['tox', 'coverage', 'flake8', 'wheel'],
     test_suite='tests',
     entry_points={
