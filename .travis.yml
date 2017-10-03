@@ -1,10 +1,8 @@
 language: python
-python: 3.5
+python: 3.6
 
 env:
-  - TOXENV=py35
-  - TOXENV=py27
-  - TOXENV=pypy
+  - TOXENV=py36
 
 install: pip install -U tox
 
